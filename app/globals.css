@@ -1,3 +1,18 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+@font-face {
+  font-family: "Murs-Gothic";
+  src: url("../public/fonts/MursGothic-WideDark.woff");
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../public/fonts/Outfit-VariableFont_wght.ttf");
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

@@ -5,6 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  @apply bg-gradient-to-t from-primary to-secondary
 }
 
 .description {
