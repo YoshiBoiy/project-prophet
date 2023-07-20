@@ -1,4 +1,3 @@
-const { transform } = require('typescript');
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
