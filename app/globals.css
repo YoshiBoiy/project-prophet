@@ -2,7 +2,6 @@
 @tailwind utilities;
 @tailwind components;
 
-
 @font-face {
   font-family: "Murs-Gothic";
   src: url("../public/fonts/MursGothic-WideDark.woff");
