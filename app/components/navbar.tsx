@@ -1,4 +1,4 @@
-import { ProphetLogo } from "../public/logos/prophet";
+import { ProphetLogo } from "../../public/logos/prophet";
 import Link from "next/link";
 
 export function NavBar() {

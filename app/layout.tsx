@@ -2,6 +2,8 @@ import './globals.css'
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 
+import { NavBar } from './components/navbar'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -21,7 +23,10 @@ export default function RootLayout({ children }) {
 				<meta name="msapplication-TileColor" content="#da532c"></meta>
 				<meta name="theme-color" content="#ffffff"></meta>
 			</Head>
-			<body className={inter.className}>{children}</body>
+			<NavBar />
+			<main className="flex flex-col h-screen bg-gradient-to-t from-primary to-secondary">
+				{children}
+			</main>
 		</html>
 	)
 }
