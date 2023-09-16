@@ -9,6 +9,6 @@ import Main from './components/main'
 
 export default function Home() {
 	return (
-		<Main title="On Balance Volume" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." prediction="Bearish"/>
+		<Main title="On Balance Volume" description="On Balance Volume (OBV) relates trading volume to price changes to indicate a potential upward or downward movement. The OBV accumulates volume, adding the day's volume when the close is higher than the previous day's close and subtracting the day's volume when the close is lower. This accumulation creates a running total of volume which is then plotted as a line. The idea behind OBV is that volume precedes price movements; thus, a rise in OBV signals bullish, while a decline in OBV signals bearish." prediction="Bearish" />
 	)
 }
