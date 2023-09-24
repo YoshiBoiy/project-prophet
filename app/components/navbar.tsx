@@ -21,7 +21,7 @@ export function NavBar() {
 			<div className="h-full pt-2 pr-2 flex justify-between items-center w-full">
 					<div></div>
 					<Link href="/" className="text-white text-base md:text-lg lg:text-2xl font-murs">Our Goal</Link>
-					<Link href="/" className="text-white text-base  md:text-lg lg:text-2xl font-murs">Project Prophet</Link>
+					<Link href="/chatbot" className="text-white text-base  md:text-lg lg:text-2xl font-murs">Project Prophet</Link>
 					<Link href="/" className="text-white text-base  md:text-lg lg:text-2xl font-murs">About</Link>
 			</div>
 		</div>
